@@ -180,7 +180,7 @@ Now, from your other JavaScript file you can call the method like this:
 ```jsx
 import ToastExample from './ToastExample';
 
-ToastExample.show('Awesome', ToastExample.SHORT);
+ToastExample.show('Awesome', 3); 
 ```
 
 Please make sure this JavaScript is in the same hierarchy as `ToastExample.js`.
